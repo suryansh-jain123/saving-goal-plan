@@ -1,0 +1,253 @@
+.nav{
+    width: 1440px;
+height: 80px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+background-color:  #FFFFFF;
+
+}
+.nav img{
+    width: 100px;
+height: 32px;
+top: 24px;
+left: 56px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+}
+
+
+
+.title img{
+    width: 560px;
+height: 24px;
+top: 128px;
+left: 440px;
+gap: 10px;
+opacity: 0px;
+position: absolute;
+
+}
+.card{
+
+width: 560px;
+height: 511px;
+top: 176px;
+left: 440px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+display: flex;
+
+}
+.container{
+    width: 560px;
+height: 511px;
+gap: 0px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+
+}
+.icon{
+    width: 480px;
+height: 64px;
+top: 32px;
+left: 40px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+display: flex;
+
+}
+.icon img{
+    width: 64px;
+    height: 64px;
+}
+.text{
+    width: 400px;
+height: 57px;
+top: 3px;
+left: 80px;
+gap: 4px;
+opacity: 0px;
+position: absolute;
+
+}
+.text h4{
+    width: 400px;
+    height: 24px;
+    top: 33px;
+    gap: 10px;
+    opacity: 0px;
+    position: absolute;
+    opacity: 0.7;
+    
+    
+}
+.text H1{
+    width: 400px;
+height: 29px;
+gap: 10px;
+opacity: 0px;
+position: absolute;
+font-weight: bold;
+font-size: 24px;
+
+}
+.inputs{
+    width: 480px;
+height: 81px;
+top: 120px;
+left: 40px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+
+
+}
+.left{
+    width: 272px;
+height: 81px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+display: flex;
+}
+.total input{
+    width: 264px;
+    height: 29px;
+    top: 14px;
+    left: 44px;
+    gap: 10px;
+    opacity: 0px;
+    position: absolute;
+    
+    
+
+}
+.total{
+    width: 272px;
+height: 56px;
+top: 25px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+}
+.right{
+    width: 192px;
+height: 81px;
+left: 288px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+
+}
+.right h3{
+    width: 96px;
+height: 21px;
+gap: 4px;
+opacity: 0px;
+position: absolute;
+}
+.dateInput{
+    width: 192px;
+    height: 56px;
+    top: 25px;
+    position: absolute;
+}
+.monthlyAmount{
+    width: 480px;
+height: 158px;
+top: 225px;
+left: 40px;
+gap: 0px;
+border-radius: 8px ;
+border: 1px ;
+opacity: 0px;
+position: absolute;
+
+}
+.both{
+    width: 416px;
+height: 38px;
+top: 24px;
+left: 32px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+}
+.month{
+    width:224px;
+height: 24px;
+top: 7px;
+gap: 10px;
+opacity: 0px;
+position: absolute;
+}
+.month h3{
+   
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+
+}
+.amount{
+width: 131px;
+height: 38px;
+gap: 10px;
+opacity: 0px;
+position: absolute;
+font-family: Rubik;
+font-size: 32px;
+font-weight: 500;
+line-height: 38.4px;
+text-align: right;
+
+display: grid;
+left: 286.5px;
+}
+.details{
+    width: 480px;
+height: 80px;
+top: 78px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+background-color:  #F4F8FA;
+;
+}
+.break{
+    width: 416px;
+height: 32px;
+top: 24px;
+left: 32px;
+gap: 10px;
+opacity: 0px;
+position: absolute;
+
+
+}
+.btn{
+width: 320px;
+height: 56px;
+top: 415px;
+left: 120px;
+padding: 18px 0px 18px 0px;
+gap: 10px;
+border-radius: 32px;
+opacity: 0px;
+background-color: #1B31A8;
+position: absolute;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+text-align: center;
+color:  #FFFFFF;
+
+
+}
