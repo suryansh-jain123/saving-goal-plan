@@ -8,13 +8,13 @@ import originLogo from './assets/logoOrigin.jpg';
 import moment from 'moment';
 
 function App() {
-  // States for total amount, target date, and calculated monthly deposit
+
   const [amount, setAmount] = useState('');
   const [reachDate, setReachDate] = useState('');
   const [monthlyDeposit, setMonthlyDeposit] = useState(0);
   const [monthsLeft, setMonthsLeft] = useState(0);
 
-  // Handle amount input change
+
   const handleAmountChange = (e) => {
     const input = e.target.value.replace(/,/g, '');
     if (!isNaN(input)) {
@@ -22,19 +22,19 @@ function App() {
     }
   };
 
-  // Handle reach date input (month and year)
+
   const handleDateChange = (e) => {
-    const targetDate = moment(e.target.value + "-01"); // format YYYY-MM
+    const targetDate = moment(e.target.value + "-01"); 
     if (targetDate.isValid() && targetDate.isAfter(moment())) {
       setReachDate(targetDate);
     }
   };
 
-  // Calculate monthly deposit when the amount or reachDate changes
+
   useEffect(() => {
     if (amount && reachDate) {
       const totalAmount = parseFloat(amount);
-      const months = reachDate.diff(moment(), 'months') + 1; // Include current month
+      const months = reachDate.diff(moment(), 'months') + 1; h
       setMonthsLeft(months);
       if (months > 0) {
         const deposit = (totalAmount / months).toFixed(2);
@@ -64,7 +64,7 @@ function App() {
           </div>
 
           <div className="inputs">
-            {/* Left: Amount input */}
+           
             <div className="left">
               <h3>Total Amount</h3>
               <div className="total">
@@ -77,13 +77,13 @@ function App() {
               </div>
             </div>
 
-            {/* Right: Date input */}
+           
             <div className="right">
               <h5>Reach goal by</h5>
               <div className="date">
                 <input
                   className="dateInput"
-                  type="month" // Allows selection of month/year
+                  type="month" 
                   value={reachDate ? reachDate.format("YYYY-MM") : ''}
                   onChange={handleDateChange}
                 />
@@ -91,7 +91,7 @@ function App() {
             </div>
           </div>
 
-          {/* Monthly deposit display */}
+          
           <div className="monthlyAmount">
             <div className="both">
               <div className="month">
@@ -102,7 +102,7 @@ function App() {
               </div>
             </div>
             
-            {/* Details about goal */}
+          
             <div className="details">
               {amount && reachDate && monthsLeft > 0 ? (
                 <div className="break">
@@ -116,7 +116,7 @@ function App() {
             </div>
           </div>
 
-          {/* Confirm Button */}
+         
           <button className="btn">Confirm</button>
         </div>
       </div>
